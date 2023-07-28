@@ -1,0 +1,51 @@
+/* Welcome to the Fun Zone! 🎉🌈🎊 */
+
+/* Dynamic Background 🌟 */
+#custom-bg {
+    /* Add some animation to the background */
+    animation: colorChange 10s infinite alternate;
+}
+
+@keyframes colorChange {
+    0% { background-color: #ff6f69; } /* Bright Red */
+    50% { background-color: #66d9e8; } /* Sky Blue */
+    100% { background-color: #ffcc5c; } /* Sunny Yellow */
+}
+
+/* Fancy Text Style 🌈 */
+#text {
+    font-weight: bold;
+    font-size: xx-large;
+    /* Let's make the text stand out even more! */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    color: #ff6f69; /* Bright Red! */
+    /* Add a delightful bouncing animation to the text */
+    animation: bounceText 1s infinite;
+}
+
+@keyframes bounceText {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+/* Super Cool Jumbotron! 🚀 */
+.col-md-12.jumbotron.text-center {
+    background-image: url('https://img.freepik.com/free-photo/scientist-analyzing-bacterium-high-scale-magnification-generated-by-ai_188544-27946.jpg?t=st=1690514865~exp=1690518465~hmac=83fe875e7d56c71fb2d5b6ef36547f244de76bf4e63a06395bd4fd81552f03e8&w=1380');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    /* It's party time! 🎈 Add a pulsating animation to the jumbotron */
+    animation: pulsateJumbotron 2s ease-in-out infinite;
+}
+
+@keyframes pulsateJumbotron {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* Dancing Scientists! 💃🕺 */
+#scientists {
+    /* Let's make the scientists dance! */
+    animation: danceScientists 4s linear infinite;
